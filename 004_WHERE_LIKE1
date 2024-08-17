@@ -1,0 +1,12 @@
+-- WHERE条件にてLIKEを使う方法。%を使用
+
+SELECT
+  id,
+  family_name,
+  first_name,
+  age,
+  prefecture
+FROM
+  student_profiles
+WHERE
+  family_name LIKE '%to%';
