@@ -1,0 +1,11 @@
+-- テーブルより、表示フィールドを明示的に絞った表示方法
+
+SELECT 
+
+id, 
+family_name,
+first_name,
+age,
+prefecture
+
+FROM student_profiles;
