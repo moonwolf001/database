@@ -1,0 +1,10 @@
+-- student_profilesテーブルへのデータの挿入
+
+INSERT INTO student_profiles (id, family_name, first_name, age, gender, prefecture, weight) VALUES
+(1, 'Ito', 'Kouta', 17, 'Male', 'Osaka', 75.0),
+(2, 'Kazano', 'Reina', 20, 'Female', 'Chiba', 55.0),
+(3, 'Hatsune', 'Miku', 16, 'Female', 'Tokyo', 48.0),
+(4, 'Sato', 'Kenji', 14, 'Male', 'Hiroshima', 63.0),
+(5, 'Gojo', 'Satoru', 30, 'Male', 'Tokyo', 71.0),
+(6, 'Nakamoto', 'Chika', 10, 'Female', 'Nagoya', 40.0),
+(7, 'Abe', 'Syunsuke', 11, 'Male', 'Kyoto', 45.0);
