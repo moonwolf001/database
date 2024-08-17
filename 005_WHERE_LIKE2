@@ -1,0 +1,11 @@
+-- 苗字が３文字の人を検索
+SELECT
+  id,
+  family_name,
+  first_name,
+  age,
+  prefecture
+FROM
+  student_profiles
+WHERE
+  family_name LIKE '___';
