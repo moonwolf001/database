@@ -1,0 +1,11 @@
+-- student_profiles テーブルの作成
+
+CREATE TABLE student_profiles (
+    id INTEGER PRIMARY KEY,
+    family_name TEXT,
+    first_name TEXT,
+    age INTEGER,
+    gender TEXT,
+    prefecture TEXT,
+    weight REAL
+);
