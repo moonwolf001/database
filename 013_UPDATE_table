@@ -1,0 +1,9 @@
+-- student_profileテーブルの特定のフィールドの更新
+
+UPDATE student_profiles SET sports = 2 WHERE family_name = 'Ito';
+UPDATE student_profiles SET sports = 3 WHERE family_name = 'Kazano';
+UPDATE student_profiles SET sports = 4 WHERE family_name = 'Hatsune';
+UPDATE student_profiles SET sports = 2 WHERE family_name = 'Sato';
+UPDATE student_profiles SET sports = 2 WHERE family_name = 'Gojo';
+UPDATE student_profiles SET sports = 5 WHERE family_name = 'Nakamoto';
+UPDATE student_profiles SET sports = 3 WHERE family_name = 'Abe';
