@@ -1,0 +1,6 @@
+-- student_profilesと合わせて使うsportsテーブルの作成
+
+CREATE TABLE sports (
+    id INTEGER PRIMARY KEY,
+    name TEXT
+);
