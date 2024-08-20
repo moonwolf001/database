@@ -1,0 +1,4 @@
+-- テーブルにフィールドの追加
+
+ALTER TABLE student_profiles
+ADD COLUMN sports INTEGER;
