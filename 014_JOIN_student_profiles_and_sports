@@ -1,0 +1,15 @@
+-- student_profilesとsportを結合
+-- 条件：sp.sports = s.id　(それぞのテーブルでスポーツIDが一致するもの)
+
+SELECT 
+   sp.id, 
+   sp.family_name, 
+   sp.first_name, 
+   sp.age, sp.gender, 
+   sp.prefecture, 
+   sp.weight, 
+   s.name AS sport
+FROM 
+   student_profiles sp
+JOIN 
+   sports s ON sp.sports = s.id;
