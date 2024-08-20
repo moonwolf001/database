@@ -1,0 +1,8 @@
+-- sportsテーブルにデータの挿入
+
+INSERT INTO sports (id, name) VALUES (1, 'Baseball');
+INSERT INTO sports (id, name) VALUES (2, 'Soccer');
+INSERT INTO sports (id, name) VALUES (3, 'Tennis');
+INSERT INTO sports (id, name) VALUES (4, 'Swimming');
+INSERT INTO sports (id, name) VALUES (5, 'Volleyball');
+INSERT INTO sports (id, name) VALUES (6, 'Table Tennis');
