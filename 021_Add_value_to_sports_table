@@ -1,0 +1,7 @@
+-- sportsテーブルに、レコードを追加します
+
+INSERT INTO sports (id, name) VALUES (7, 'Judo');
+INSERT INTO sports (id, name) VALUES (8, 'Kendo');
+INSERT INTO sports (id, name) VALUES (9, 'Karate');
+INSERT INTO sports (id, name) VALUES (10, 'Aikido');
+INSERT INTO sports (id, name) VALUES (11, 'Kyudo');
