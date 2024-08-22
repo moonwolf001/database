@@ -1,0 +1,14 @@
+-- Left Join の結果をVIEWとして残す例
+
+CREATE VIEW VIEW_student_sports 
+AS
+SELECT 
+   sp.id, 
+   sp.family_name, 
+   sp.first_name, 
+   sp.age, 
+   s.name AS sport_name
+FROM 
+   student_profiles2 sp
+LEFT JOIN 
+   sports s ON sp.sports = s.id;
