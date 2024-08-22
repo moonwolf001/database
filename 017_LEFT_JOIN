@@ -1,0 +1,12 @@
+-- LEFT JOINの例、左側のテーブルはすべて残す結合の例
+
+SELECT 
+   sp2.id, 
+   sp2.family_name, 
+   sp2.first_name, 
+   sp2.age, s.
+   name AS sport_name
+FROM 
+   student_profiles2 sp2
+LEFT JOIN 
+   sports s ON sp2.sports = s.id;
