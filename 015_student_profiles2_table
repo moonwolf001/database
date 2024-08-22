@@ -1,7 +1,8 @@
 --INNER Join とLeft Joinの説明用にstudent_profiles2をコピーして作成
 --さらにコピーされたテーブルにて、Gojo Satoruの sportsの値を10と変更
 
-CREATE TABLE student_profiles2 AS
+CREATE TABLE student_profiles2 
+AS
 SELECT * FROM student_profiles;
 
 UPDATE student_profiles2
