@@ -1,0 +1,9 @@
+-- 受注管理のテーブルより、日付でグループ化し売上高を表示
+
+SELECT  
+DATE(order_date) AS order_day,  
+SUM(total) AS daily_sales 
+FROM  
+ramen_orders 
+GROUP BY  
+order_day;
