@@ -1,0 +1,10 @@
+-- 受注管理テーブルより、商品名ごとでグループ化して売上高をまとめる
+
+SELECT  
+menu_item,  
+SUM(total) AS sales_per_item,  
+SUM(quantity) AS total_quantity 
+FROM  
+ramen_orders 
+GROUP BY  
+menu_item;
