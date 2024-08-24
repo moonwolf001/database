@@ -1,0 +1,8 @@
+-- sqlite3 明示的なTransaction処理のひな形
+
+BEGIN TRANSACTION; 
+処理１ 
+処理２ 
+処理３ 
+COMMIT;      -- エラーが無ければコミット 
+ROLLBACK;    -- エラーがあればロールバック
