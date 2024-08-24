@@ -1,0 +1,7 @@
+-- student_profilesテーブルの内容をCSVファイルとして出力
+
+.headers on 
+.mode csv 
+.output student_profiles.csv 
+SELECT * FROM student_profiles; 
+.output stdout 
