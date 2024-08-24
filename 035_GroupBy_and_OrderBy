@@ -1,0 +1,12 @@
+--   受注管理テーブルより商品で売上高をまとめ、その売上高の順位で表示する
+
+SELECT  
+menu_item,  
+SUM(total) AS sales_per_item,  
+SUM(quantity) AS total_quantity 
+FROM  
+ramen_orders 
+GROUP BY  
+menu_item 
+ORDER BY  
+total_quantity DESC;
