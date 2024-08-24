@@ -1,0 +1,21 @@
+-- ラーメン屋さんの受注テーブルを作成する
+
+CREATE TABLE ramen_orders (
+    order_id INTEGER PRIMARY KEY,
+    order_date TEXT,       -- 注文日時
+    menu_item TEXT,        -- 注文されたメニュー
+    quantity INTEGER,      -- 注文数
+    price REAL,            -- 単価
+    total REAL             -- 合計金額
+);
+
+INSERT INTO ramen_orders (order_date, menu_item, quantity, price, total) VALUES
+('2024-08-24 12:15:00', 'Shoyu Ramen', 2, 850, 1700),
+('2024-08-24 12:30:00', 'Miso Ramen', 1, 900, 900),
+('2024-08-24 13:00:00', 'Shio Ramen', 3, 800, 2400),
+('2024-08-24 18:00:00', 'Tonkotsu Ramen', 2, 950, 1900),
+('2024-08-25 12:00:00', 'Shoyu Ramen', 1, 850, 850),
+('2024-08-25 12:45:00', 'Miso Ramen', 2, 900, 1800),
+('2024-08-25 13:30:00', 'Shio Ramen', 1, 800, 800),
+('2024-08-25 19:00:00', 'Tonkotsu Ramen', 4, 950, 3800);
+
