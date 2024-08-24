@@ -1,0 +1,8 @@
+-- DB内にあるVIEWを作成した、それぞれの元のクエリ―を表示
+
+.headers on
+.mode column
+SELECT name, sql
+FROM sqlite_master
+WHERE type = 'view';
+
